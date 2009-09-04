@@ -12,10 +12,10 @@ Synopsis:       Monad to ease implementing a binary network protocol.
 Build-Type:     Simple
 
 Library
-  Build-Depends:    base >= 4,
-                    binary >= 0.5,
-                    bytestring >= 0.9.1,
-                    mtl >= 1.1
+  Build-Depends:    base >= 4 && < 5,
+                    binary >= 0.5 && < 0.6,
+                    bytestring >= 0.9.1 && < 1,
+                    mtl >= 1.1 && < 2
   Hs-Source-Dirs:   .
   Exposed-Modules:  Control.Monad.BinaryProtocol
   GHC-Options:      -Wall
